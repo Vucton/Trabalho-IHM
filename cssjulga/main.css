@@ -1,0 +1,51 @@
+main{
+    flex-grow: 1;
+    display: flex;
+}
+.conteudo{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+
+}
+.conteudo h1{
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 1rem;
+    color: #fff;
+}
+.conteudo h1 span{
+    font-size: 3rem;
+    font-weight: 100;
+    transform: translateY(-42px);
+}
+.filme{
+    font-size: 2rem;
+    color:crimson;
+    transform: translateY(30px);
+    font-style: italic;
+}
+.texto{
+    transform: translateY(50px);
+    width: 650px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-bottom: 30px;
+    
+}
+.button{
+    transform: translateY(80px);
+    height: 80px;
+    width: 300px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    background-color: crimson;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

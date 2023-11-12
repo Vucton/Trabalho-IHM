@@ -1,0 +1,20 @@
+body{
+    height: 100vh;
+    background: linear-gradient(90deg,#000,#000e 30%,#0005),
+    url(../img/edward.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 128px 50px 128px;
+    animation: zoom 1.5s alternate;
+}
+@keyframes zoom {
+    0%{
+        transform: scale(3) ;
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
